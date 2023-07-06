@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(background.jpg);
+  color: #ffffff;
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.position-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-form {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.center-all-h3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.name {
+  font-size: 4.8rem;
+}
+
+.image-div {
+  width: 40rem;
+  height: 40rem;
+}
+
+.input-character {
+  padding: 10px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-character::placeholder {
+  color: #999999;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: rgb(158, 0, 0);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.name {
+  font-size: 4.8rem;
+}
+.title {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
